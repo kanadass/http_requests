@@ -34,7 +34,7 @@ class YandexDisk:
         if response.status_code == 201:
             print("Success")
 
-TOKEN = "y0_AgAAAAAZOdvuAADLWwAAAADloEMuA_cL4qw5TvOthvYp_8rVPVhjaW4"
+TOKEN = ""
 
 if __name__ == '__main__':
     yd = YandexDisk(token=TOKEN)
